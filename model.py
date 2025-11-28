@@ -46,6 +46,9 @@ print("===== Data Informmation =====")
 print(data.info())
 
 # %%
+data.to_csv("mastercard_stock_data.csv",index=False)
+
+# %%
 data
 
 # %% [markdown]
